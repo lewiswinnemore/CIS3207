@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]){
 
-        char buffer[SIZE];
+        char buf[SIZE];
 
         for(int i = 0; i < argc; i++){
 
@@ -15,9 +15,9 @@ int main(int argc, char *argv[]){
 
         }
 
-        //char get = *fgets(buffer, SIZE, fp);
-        while(fgets(buffer, SIZE, fp) != NULL){
-        printf("%s", buffer);
+        //char get = *fgets(buf, SIZE, fp);
+        while(fgets(buf, SIZE, fp) != NULL){
+        printf("%s", buf);
 
 }
 
