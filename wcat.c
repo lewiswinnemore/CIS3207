@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
 
         FILE *fp = fopen("wcat.c", "r");        //copied from lab pdf
         if(fp == NULL){
-                printf("cannot open file\n");
+                printf("it didnt work idiot\n");
                 exit(1);
 
         }
